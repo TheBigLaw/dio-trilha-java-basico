@@ -13,6 +13,5 @@ public class Usuario {
         smartTv.subirCanal();
         smartTv.mudarCanal(8);
         
-
     }
 }
