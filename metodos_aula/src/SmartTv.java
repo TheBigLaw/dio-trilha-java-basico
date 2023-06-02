@@ -34,4 +34,9 @@ public class SmartTv {
         System.out.println("Canal: " + canal);
     }
 
+    public void mudarCanal (int novoCanal){
+        canal = novoCanal;
+        System.out.println("Canal: " + canal);
+    }
+
 }
