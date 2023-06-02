@@ -7,6 +7,7 @@ public class SmartTv {
 
     public void ligar (){
         ligada = true;
+        System.out.println("A TV esta ligada...");
     }
 
     public void desligar (){
@@ -15,18 +16,22 @@ public class SmartTv {
     
     public void aumentarVolume (){
         volume++;
+        System.out.println("Aumentando volume para: " + volume);
     }    
 
     public void abaixarVolume (){
         volume--;
+        System.out.println("Abaixando volume para " + volume);
     }
 
     public void subirCanal (){
         canal++;
+        System.out.println("Canal: " + canal);
     }
 
     public void descerCanal (){
         canal--;
+        System.out.println("Canal: " + canal);
     }
 
 }
